@@ -38,11 +38,12 @@ function App() {
       </div>
       <div className="home-body flex center-h">
         <div className="home-body-area">
-          <h1>We help with providing proxy credit scores to micro-merchants</h1>
+          <h2>We help small merchants get loans</h2>
+          <p>
+            Many merchants have little to no credit history but are in dire need of small business loans. 
+          </p>
           <p className="marg-b-m">
-            If you are a micro-merchant or small business owner looking to obtain a loan, we are here to
-            help support your business needs by giving you a score that most optimally reflects your
-            financial creditworthiness
+            We help them avail small business loans by referring creditworthy, underbanked merchants to our extensive network of lending partners.
           </p>
           <p>
             Enter your email below to learn more
