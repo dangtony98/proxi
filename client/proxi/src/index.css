@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-size: 1.25rem;
+  background-color: #dfeaff;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.color-primary {
+  color: #4a69bd;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.center-h {
+  margin: 0 auto;
+}
+
+.home-heading {
+  padding: 2rem;
+}
+
+.home-body {
+  max-width: 70rem;
+}
+
+.home-body-area {
+  padding: 2rem;
+}
+
+.home-image {
+  height: 20rem;
+  border-radius: 1rem;
+}
+
+.input {
+  padding: 1rem 1rem;
+  text-decoration: none;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 0.5rem;
+  border: 2px solid #4a69bd;
+  font-size: 1rem;
+}
+
+.button {
+  background-color: #4a69bd;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  transition: all 0.2s;
+}
+
+.marg-b-m {
+  margin-bottom: 5rem;
+}
+
+.marg-r-xs {
+  margin-right: 1rem;
+}
