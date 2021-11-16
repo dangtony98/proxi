@@ -10,8 +10,6 @@ app.use(express.static('client/proxi/build'));
 app.use(express.json());
 
 app.post('/signup1', (req, res) => {
-    console.log('signup??');
-    console.log(req.body.email)
     res.sendFile(pathToIndex);
 });
 
