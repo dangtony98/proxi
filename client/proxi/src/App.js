@@ -3,7 +3,8 @@ import './App.css';
 import axios from 'axios';
 import { useState } from 'react';
 
-const PATH = '';
+const LOCAL_PATH = 'http://localhost:3001/signup1';
+const PUBLIC_PATH = 'https://evening-falls-10614.herokuapp.com/signup1';
 
 function App() {
   const [email, setEmail] = useState('');
@@ -13,19 +14,19 @@ function App() {
   const onPress = (e) => {
     // signup pressed
     e.preventDefault();
-    
     if (email.trim() != '') {
       // case: email is not empty
-
-      axios.post('https://evening-falls-10614.herokuapp.com/signup1', {
+      axios.post(PUBLIC_PATH, {
         email
       })
       .then(function (response) {
+        console.log('A');
         setError('');
         setEmail('');
         setIsComplete(true);
       })
       .catch(function (error) {
+        console.log('B');
         setError('Oops something went wrong! Please try re-entering your email again.');
       });
     }

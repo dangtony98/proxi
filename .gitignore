@@ -1,2 +1,3 @@
 node_modules
 client/proxi/node_modules
+.env
